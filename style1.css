@@ -1,0 +1,230 @@
+*{
+	margin:  0;
+	 font-family: 'Roboto';
+	 background-color: (241, 239, 233);
+}
+
+.navbar{
+	background-color:  #b30059;
+	/*justify-content:  space-between;*/
+	display: flex;
+	
+	padding: 0px;
+
+	margin-top: 0px;
+
+
+}
+.navbar img{
+	height: 65px;
+	width: 180px;
+	margin-right: 1500px;
+	margin-left: 10px;
+}
+
+
+
+.navbar a{
+	text-decoration: none;
+	color:  #ffffff;
+	margin-right: 20px;
+	margin-left:  40px;
+	margin-top: 25px;
+	font-weight: bold;
+	background-color: #b30059 ;
+  
+}
+
+.navbar div{
+	margin-left: 0px;
+	margin-right:300px;
+	background-color: #b30059;
+
+	color: #f53b57;
+}
+
+
+.tableauPlaceholder{
+	align-content: center;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.dashboard h1{
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+}
+
+
+h1:hover{
+	color: #b30059
+
+}
+
+
+footer{  
+
+  color: #FFFFFF;
+  background-color:  #b30059;
+  text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+
+footer i{
+
+	padding-left: 10px;	
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px;
+	color: #ffffff;
+	}
+footer a{
+	color: #ffffff;
+}
+
+
+footer i:hover{
+	color: #ffcce6;
+}
+
+
+@media screen and (max-width: 1024px){
+
+	.dashboard h1{
+		font-size: 30px;
+	}
+	.tableauPlaceholder{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+
+}
+
+@media screen and (max-width: 1024px){
+	#myTopnav {
+        display: flex;
+        flex-direction: column;
+        background: #b30059;
+        font-size: 18px;
+        width: auto;
+        overflow: hidden;
+    }
+    .navbar .button {
+        display: block;
+        float: left;
+        color: #efefef;
+        width: 5%;
+        padding: 8px 8px 8px 8px;
+        margin: 6.8px 8px 6.8px 12px;
+    }
+    .navbar .button:hover {
+        color: #bcbcbc;
+    }
+    .navbar .navbarItems {
+        display: none;
+    }
+    .navbar.responsive .button {
+        display: block;
+        float: left;
+        color: #efefef;
+        width: 5%;
+        padding: 8.4px 8px 8.4px 8px;
+        margin: 6.8px 8px 0px 12px;
+    }
+    .navbar.responsive .button:hover {
+        color: #bcbcbc;
+    }
+    .navbar.responsive .navbarItems {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 0px 0px 5px 0px;
+        margin: 0px 0px 5px 0px;
+    }
+    .navbar.responsive .navbarItems a {
+        color: #efefef;
+        text-align: center;
+        width: auto;
+        padding: 5px 0px 5px 0px;
+        margin: 5px 0px 5px 0px;
+    }
+    .navbar.responsive .navbarItems a:hover {
+        color: #bcbcbc;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #myTopnav {
+        display: flex;
+        flex-direction: row;
+        background: #b30059;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .navbar .button {
+        display: none;
+    }
+    .navbar .navbarItems {
+        display: flex;
+        flex-direction: row;
+        padding: 9px 8px 9px 8px;
+        margin: 7.8px 10px 7.8px 0px;
+    }
+    .navbar .navbarItems a {
+        color: #efefef;
+        padding: 0px 10px 0px 10px;
+        margin: 0px 20px 0px 20px;
+    }
+    .navbar .navbarItems a:hover {
+        color: #bcbcbc;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #myTopnav {
+        display: flex;
+        flex-direction: row;
+        background: #b30059;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .navbar .button {
+        display: none;
+    }
+    .navbar .navbarItems {
+        display: flex;
+        flex-direction: row;
+        padding: 8px 8px 8px 15px;
+        margin: 8px 5px 8px 40px;
+    }
+    .navbar .navbarItems a {
+        color: #efefef;
+        padding: 0px 20px 0px 20px;
+        margin: 0px 25px 0px 25px;
+    }
+    .navbar .navbarItems a:hover {
+        color: #bcbcbc;
+    }
+}
+
+
+   .navbar img{
+   	align-content: center;
+   	justify-content: center;
+   	align-items: center;
+   	height: 60px;
+   	width: 100px;
+   	margin-left: auto;
+   	margin-right: auto;
+   }
+}
